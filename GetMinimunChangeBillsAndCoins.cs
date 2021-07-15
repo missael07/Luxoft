@@ -62,7 +62,7 @@ namespace CodeChallenge
             }
             else
             {
-                messageToReturn = "The currency denominations are not set for this currency";
+                messageToReturn = $"Denominations for currency [{currentCurrency}] are not defined.";
             }
 
             return messageToReturn;
