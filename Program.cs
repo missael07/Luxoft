@@ -23,6 +23,7 @@ namespace CodeChallenge
                 //Loop the process untill the user press Escape key.
                 while (!exit)
                 {
+                    
                     //Get the change to return value.
                     float changeToReturn = CommonMethods.GetPriceItemAndCashReceived();
                     //Call the MinimunChangeToReturn method.
